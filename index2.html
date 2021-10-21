@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Nathan Joshua_2172026">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+rel="stylesheet">
+</head>
+<style>
+    body{
+        font-family: 'nunito', sans-serif;
+        background-image: url(assets/background.jpg);
+    }
+    h2{
+        text-align: center;
+        color: white;
+    }
+    div{
+        background-color: rgba(178, 190, 195, 0.5);
+        height: 615px;
+        width: 450px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        padding-left: 25px;
+        
+    }
+    input {
+        
+        text-align: left;
+        
+    }
+    select {
+        width: 435px;
+    }
+    
+</style>
+<body>
+    <h2>Fill in this form</h2>
+    <div id="satuabu">
+        <form>
+        <label for = "name">Full Name:</label>
+        <input type ="text" width="300px" id = "name" name= "name" style="width: 425px;">
+        <label for = "em">Email :</label>
+        <input type ="text" width="300px" id = "em" name= "em" style="width: 425px;">
+        <label for = "ag">age</label>
+        <input type ="text" width="300px" id = "ag" name= "ag" style="width: 425px;">
+        <label for = "gender">Gender</label >
+        <select name="select your gender" id = "gender" name= "gender" style="width: 425px;"> 
+            <option disabled selected>Select your gender</option>
+            <option value="">Male</option>
+            <option value="">Female</option>
+        </select>
+        <label for = "date">Date of birth :</label>
+            <input type = "date" id = "date" name= "date" style="width: 425px;">
+            <label for = "laptop">Choose your laptop</label>
+        <select name="Choose laptop"  id = "laptop" name= "laptop" style="width: 425px;">
+            <option>Laptop</option>
+            <optgroup label="Asus">
+              <option value="a1">Laptop Asus A456UQ</option>
+              <option value="a2">Laptop Asus E410MA</option>
+              <option value="a3">Laptop Asus Vivobook K403FA</option>
+              <option value="a4">Laptop Asus BR1100CKA-GJ0410</option>
+            </optgroup>
+            <optgroup label="Lenovo">
+              <option value="l1">Laptop Lenovo ideapad S340</option>
+              <option value="l2">Laptop Lenovo ideapad slim 3</option>
+              <option value="L3">Laptop lenovo T440p</option>
+            </optgroup>
+          </select>
+          <label for = "name">Enter your card number</label><br>
+          <input type = "number" id ="num" name = "nume" placeholder="XXXX XXXX XXXX XXXX" style="width: 425px;">
+          <label for = "payment">Full Name:</label><br>
+        <input type = "radio" name="payment" id = "name">1X<br>
+        <input type = "radio" name="payment" id = "name">3X <br>
+        <input type = "radio" name="payment" id = "name">6X <br>
+        <input type = "radio" name="payment" id = "name">16X<br>
+        <label for = "brand">which brand do you like :</label><br>
+        <input type = "checkbox" name= "brand" id = "brand"> Asus <br>
+        <input type = "checkbox" name= "brand" id = "brand"> Lenovo <br>
+        <input type = "checkbox" name= "brand" id = "brand"> Acer <br>
+        <input type = "checkbox" name= "brand" id = "brand"> HP <br>
+        <br>
+
+        
+        <input type = "submit"  style ="width: 425px; height: 50px; background-color: #54C571; text-align: center;">
+        
+        </form>
+
+    </div>
+
+</body>
+</html>
